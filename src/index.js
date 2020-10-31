@@ -11,7 +11,7 @@ import MusicMaster from './projects/music-master'
 ReactDOM.render(
     <BrowserRouter history={createBrowserHistory()} basename={process.env.PUBLIC_URL}>
         <Switch>
-            <Route exact path='/react-personal-porfolio' render ={()=> <Header><App/></Header>}/>
+            <Route exact path='/' render ={()=> <Header><App/></Header>}/>
             <Route exact path='/jokes' render ={()=> <Header><Jokes/></Header>}/>
             <Route exact path='/music-master' render ={()=> <Header><MusicMaster/></Header>}/>
         </Switch>
