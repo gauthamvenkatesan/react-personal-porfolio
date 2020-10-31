@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/react-personal-porfolio/static/css/main.9d928f76.chunk.css",
-    "main.js": "/react-personal-porfolio/static/js/main.22f4a14e.chunk.js",
-    "main.js.map": "/react-personal-porfolio/static/js/main.22f4a14e.chunk.js.map",
+    "main.js": "/react-personal-porfolio/static/js/main.f5f8c08f.chunk.js",
+    "main.js.map": "/react-personal-porfolio/static/js/main.f5f8c08f.chunk.js.map",
     "runtime-main.js": "/react-personal-porfolio/static/js/runtime-main.ff254511.js",
     "runtime-main.js.map": "/react-personal-porfolio/static/js/runtime-main.ff254511.js.map",
-    "static/js/2.42685ad7.chunk.js": "/react-personal-porfolio/static/js/2.42685ad7.chunk.js",
-    "static/js/2.42685ad7.chunk.js.map": "/react-personal-porfolio/static/js/2.42685ad7.chunk.js.map",
+    "static/js/2.1ecf7f05.chunk.js": "/react-personal-porfolio/static/js/2.1ecf7f05.chunk.js",
+    "static/js/2.1ecf7f05.chunk.js.map": "/react-personal-porfolio/static/js/2.1ecf7f05.chunk.js.map",
     "index.html": "/react-personal-porfolio/index.html",
-    "precache-manifest.b284973393d2793180a8c7c8af32bc8f.js": "/react-personal-porfolio/precache-manifest.b284973393d2793180a8c7c8af32bc8f.js",
+    "precache-manifest.d56e46571d574b086663ea2ba0ad82b5.js": "/react-personal-porfolio/precache-manifest.d56e46571d574b086663ea2ba0ad82b5.js",
     "service-worker.js": "/react-personal-porfolio/service-worker.js",
     "static/css/main.9d928f76.chunk.css.map": "/react-personal-porfolio/static/css/main.9d928f76.chunk.css.map",
-    "static/js/2.42685ad7.chunk.js.LICENSE.txt": "/react-personal-porfolio/static/js/2.42685ad7.chunk.js.LICENSE.txt",
+    "static/js/2.1ecf7f05.chunk.js.LICENSE.txt": "/react-personal-porfolio/static/js/2.1ecf7f05.chunk.js.LICENSE.txt",
     "static/media/index.css": "/react-personal-porfolio/static/media/roboto-condensed.light.cf4449c1.ttf",
     "static/media/email_icon.png": "/react-personal-porfolio/static/media/email_icon.fd99f8e3.png",
     "static/media/github_icon.png": "/react-personal-porfolio/static/media/github_icon.e2a62886.png",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ff254511.js",
-    "static/js/2.42685ad7.chunk.js",
+    "static/js/2.1ecf7f05.chunk.js",
     "static/css/main.9d928f76.chunk.css",
-    "static/js/main.22f4a14e.chunk.js"
+    "static/js/main.f5f8c08f.chunk.js"
   ]
 }
