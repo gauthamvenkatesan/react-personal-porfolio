@@ -9,6 +9,10 @@
     src: url(./assets/economica-bold.ttf);
 }
 
+p{
+    background-color: white;
+}
+
 body {
     text-align: center;
     font-size: 20px;
@@ -19,11 +23,27 @@ h1,h2,h3,h4,h5 {
     font-family: 'economicaBold';
 }
 
+.center-it{
+    text-align: center;
+    align-items: center;
+}
+.carrer-info{
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+}
 .profileImg {
     width: 140px;
     height: 200px;
-    border-radius: 90px;
+    border-radius: 3px;
 }
+.bg-image{
+    background-image: url('./assets/bg_main.jpg') ;
+    background-repeat: no-repeat;
+    background-size:100%;    
+}
+
 
 .text-fade-in{
     opacity: 100;
@@ -32,17 +52,17 @@ h1,h2,h3,h4,h5 {
 }
 
 .text-fade-out{
-    opacity: 0;
+    opacity: 20;
     animation-name: fade-out;
     animation-duration: 2s;
 }
 
 @keyframes fade-in{
-    from {opacity: 0}
-    to {opacity: 100}
+    from {opacity: 20}
+    to {opacity: 80}
 }
 
 @keyframes fade-out{
-    from {opacity: 100}
-    to {opacity: 0}
+    from {opacity: 80}
+    to {opacity: 20}
 }

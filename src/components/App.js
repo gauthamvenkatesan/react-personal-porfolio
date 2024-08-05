@@ -3,7 +3,7 @@ import Projects from './Projects';
 import SociaProjects from './SocialProfiles';
 import Title from './Title';
 
-import profile from '../assets/profile.jpg';
+import profile from '../assets/profile_2.jpg';
 
 class App extends Component{
 
@@ -21,17 +21,19 @@ class App extends Component{
     render(){
         return (
             <div>
-                <img src={profile} alt='profile' className='profileImg'/>
+                <div className='bg-image'>
+                <img src={profile} alt='profile' className='profileImg'/> </div>
                 <h1>Hello I am Gautham Venkatesan</h1>
                 <Title/>
-                <p>I always look forward to work on new technologies and enhance my skillset</p>
+                <p className="carrer-info">I always look forward to work on new technologies and enhance my skillset</p>
                 
                 {this.state.displayBio ? 
-                <div>
-                    <p>Live in Toronto Ontario</p>
-                    <p>It excites me how coding and development scene is changing everyday. I think React is awesome.</p>
-                    <p>Upon stumbing on free time I play table tennis and cook Paneer!</p>
-                    <button className="btn btn-sm btn-default" onClick={this.toggleDisplayBio}>Read Less</button>
+                <div >
+                    <div className="carrer-info"><p>Live in Toronto Ontario</p>
+                        <p>I get excited how technology and software is changing the world.</p>
+                        <p>Upon stumbing on free time I play badminton, wood working in my garage or just love to do hiking!</p>
+                    </div>
+                    <button className="center-it btn btn-sm btn-default" onClick={this.toggleDisplayBio}>Read Less</button>
                 </div> : <div> <button className="btn btn-sm btn-default" onClick={this.toggleDisplayBio}>Read More</button></div>}
                 <hr/>
                 <Projects/>

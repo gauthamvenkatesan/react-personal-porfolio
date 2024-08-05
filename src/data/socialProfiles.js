@@ -11,17 +11,17 @@ const SOCIAL_PROFILES = [
   },
   {
     id: 2,
-    link: 'https://github.com/Gautham0609',
+    link: 'https://github.com/gauthamvenkatesan',
     image: githubIcon
   },
   {
     id: 3,
-    link: 'https://www.linkedin.com/in/Gautham0609',
+    link: 'https://www.linkedin.com/in/gauthamvenkatesan',
     image: linkedinIcon
   },
   {
     id: 4,
-    link: 'https://twitter.com/GautyNow',
+    link: 'https://x.com/GautyNow',
     image: twitterIcon
   }
 ];
